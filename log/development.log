@@ -1,0 +1,3238 @@
+/!\ FAILSAFE /!\  Fri Sep 18 17:08:11 -0400 2009
+  Status: 500 Internal Server Error
+  unknown error
+    C:/Ruby/lib/ruby/1.8/dl/import.rb:29:in `initialize'
+    C:/Ruby/lib/ruby/1.8/dl/import.rb:29:in `dlopen'
+    C:/Ruby/lib/ruby/1.8/dl/import.rb:29:in `dlload'
+    C:/Ruby/lib/ruby/1.8/dl/import.rb:27:in `each'
+    C:/Ruby/lib/ruby/1.8/dl/import.rb:27:in `dlload'
+    C:/Ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.1-x86-mswin32/lib/sqlite3/driver/dl/api.rb:63
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.1-x86-mswin32/lib/sqlite3/driver/dl/driver.rb:33
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.1-x86-mswin32/lib/sqlite3/database.rb:643:in `load_driver'
+    C:/Ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.1-x86-mswin32/lib/sqlite3/database.rb:641:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.1-x86-mswin32/lib/sqlite3/database.rb:641:in `load_driver'
+    C:/Ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.1-x86-mswin32/lib/sqlite3/database.rb:107:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `sqlite3_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Fri Sep 18 17:08:49 -0400 2009
+  Status: 500 Internal Server Error
+  unknown error
+    C:/Ruby/lib/ruby/1.8/dl/import.rb:29:in `initialize'
+    C:/Ruby/lib/ruby/1.8/dl/import.rb:29:in `dlopen'
+    C:/Ruby/lib/ruby/1.8/dl/import.rb:29:in `dlload'
+    C:/Ruby/lib/ruby/1.8/dl/import.rb:27:in `each'
+    C:/Ruby/lib/ruby/1.8/dl/import.rb:27:in `dlload'
+    C:/Ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.1-x86-mswin32/lib/sqlite3/driver/dl/api.rb:63
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.1-x86-mswin32/lib/sqlite3/driver/dl/driver.rb:33
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.1-x86-mswin32/lib/sqlite3/database.rb:643:in `load_driver'
+    C:/Ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.1-x86-mswin32/lib/sqlite3/database.rb:641:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.1-x86-mswin32/lib/sqlite3/database.rb:641:in `load_driver'
+    C:/Ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.1-x86-mswin32/lib/sqlite3/database.rb:107:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `sqlite3_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Fri Sep 18 17:09:02 -0400 2009
+  Status: 500 Internal Server Error
+  unknown error
+    C:/Ruby/lib/ruby/1.8/dl/import.rb:29:in `initialize'
+    C:/Ruby/lib/ruby/1.8/dl/import.rb:29:in `dlopen'
+    C:/Ruby/lib/ruby/1.8/dl/import.rb:29:in `dlload'
+    C:/Ruby/lib/ruby/1.8/dl/import.rb:27:in `each'
+    C:/Ruby/lib/ruby/1.8/dl/import.rb:27:in `dlload'
+    C:/Ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.1-x86-mswin32/lib/sqlite3/driver/dl/api.rb:63
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.1-x86-mswin32/lib/sqlite3/driver/dl/driver.rb:33
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.1-x86-mswin32/lib/sqlite3/database.rb:643:in `load_driver'
+    C:/Ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.1-x86-mswin32/lib/sqlite3/database.rb:641:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.1-x86-mswin32/lib/sqlite3/database.rb:641:in `load_driver'
+    C:/Ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.1-x86-mswin32/lib/sqlite3/database.rb:107:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `sqlite3_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Fri Sep 18 17:10:06 -0400 2009
+  Status: 500 Internal Server Error
+  Unknown database 'todo'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `real_connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:204:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `mysql_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2009-09-18 17:11:16) [GET]
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+Completed in 47ms (View: 0, DB: 0) | 200 OK [http://localhost/rails/info/properties]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2009-09-18 17:11:19) [GET]
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://localhost/rails/info/properties]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:12:04) [GET]
+
+ActionController::RoutingError (No route matches "/tasks" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:12:07) [GET]
+
+ActionController::RoutingError (No route matches "/tasks" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:12:07) [GET]
+
+ActionController::RoutingError (No route matches "/tasks" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:12:10) [GET]
+
+ActionController::RoutingError (No route matches "/tasks/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:12:13) [GET]
+
+ActionController::RoutingError (No route matches "/task" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:13:41) [GET]
+
+ActionController::RoutingError (No route matches "/task" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:13:42) [GET]
+
+ActionController::RoutingError (No route matches "/task" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:13:45) [GET]
+
+ActionController::RoutingError (No route matches "/tasks" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (141.0ms)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (265.0ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTasks (20090918211445)
+  [4;36;1mSQL (125.0ms)[0m   [0;1mCREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `finished` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (47.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090918211445')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mdescribe `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:15:05) [GET]
+
+ActionController::RoutingError (No route matches "/tasks" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:15:07) [GET]
+
+ActionController::RoutingError (No route matches "/task" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:21:21) [GET]
+
+ActionController::RoutingError (No route matches "/task" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:21:22) [GET]
+
+ActionController::RoutingError (No route matches "/task" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:30:33) [GET]
+
+ActionController::RoutingError (No route matches "/tasks" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:30:35) [GET]
+
+ActionController::RoutingError (No route matches "/tasks" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:30:37) [GET]
+
+ActionController::RoutingError (No route matches "/task" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:30:46) [GET]
+
+ActionController::RoutingError (No route matches "/tasks/index" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:30:49) [GET]
+
+ActionController::RoutingError (No route matches "/tasks/index" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:30:49) [GET]
+
+ActionController::RoutingError (No route matches "/tasks/index" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:30:49) [GET]
+
+ActionController::RoutingError (No route matches "/tasks/index" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:30:50) [GET]
+
+ActionController::RoutingError (No route matches "/tasks/index" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#show (for 127.0.0.1 at 2009-09-18 17:31:55) [GET]
+  Parameters: {"id"=>"index"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, destroy, finish, index, new, and unfinish):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:32:21) [GET]
+
+ActionController::RoutingError (No route matches "/tasls" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2009-09-18 17:32:23) [GET]
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://localhost/rails/info/properties]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:32:26) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 	<%= f.error_messages %>
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:33:26) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #20 of app/views/tasks/index.html.erb:
+17: 
+18:   </tr>
+19: 
+20: <% @tasks.each do |task| %>
+21:   <tr>
+22:     <td width="500"><%=h task.name %></td>
+23: 	<% if task.finished %>
+
+    app/views/tasks/index.html.erb:20
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:33:27) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+
+TypeError (can't dup NilClass):
+  app/controllers/tasks_controller.rb:9:in `new'
+  app/controllers/tasks_controller.rb:9:in `new'
+  app/controllers/tasks_controller.rb:4:in `index'
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:33:31) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #20 of app/views/tasks/index.html.erb:
+17: 
+18:   </tr>
+19: 
+20: <% @tasks.each do |task| %>
+21:   <tr>
+22:     <td width="500"><%=h task.name %></td>
+23: 	<% if task.finished %>
+
+    app/views/tasks/index.html.erb:20
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:33:31) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #20 of app/views/tasks/index.html.erb:
+17: 
+18:   </tr>
+19: 
+20: <% @tasks.each do |task| %>
+21:   <tr>
+22:     <td width="500"><%=h task.name %></td>
+23: 	<% if task.finished %>
+
+    app/views/tasks/index.html.erb:20
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:33:32) [GET]
+  [4;36;1mTask Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #20 of app/views/tasks/index.html.erb:
+17: 
+18:   </tr>
+19: 
+20: <% @tasks.each do |task| %>
+21:   <tr>
+22:     <td width="500"><%=h task.name %></td>
+23: 	<% if task.finished %>
+
+    app/views/tasks/index.html.erb:20
+
+Rendered rescues/_trace (140.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:33:38) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #20 of app/views/tasks/index.html.erb:
+17: 
+18:   </tr>
+19: 
+20: <% @tasks.each do |task| %>
+21:   <tr>
+22:     <td width="500"><%=h task.name %></td>
+23: 	<% if task.finished %>
+
+    app/views/tasks/index.html.erb:20
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:34:06) [GET]
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 	<%= f.error_messages %>
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+
+Rendered rescues/_trace (140.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:34:07) [GET]
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 	<%= f.error_messages %>
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:34:08) [GET]
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 	<%= f.error_messages %>
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+
+Rendered rescues/_trace (141.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:34:08) [GET]
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 	<%= f.error_messages %>
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:34:51) [GET]
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 	<%= f.error_messages %>
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:34:52) [GET]
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 	<%= f.error_messages %>
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:34:53) [GET]
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 	<%= f.error_messages %>
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:34:53) [GET]
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 	<%= f.error_messages %>
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+
+Rendered rescues/_trace (141.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:34:54) [GET]
+
+TypeError (can't dup NilClass):
+  app/controllers/tasks_controller.rb:5:in `index'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:34:54) [GET]
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 	<%= f.error_messages %>
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:36:17) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:36:18) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:36:18) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:36:29) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:36:29) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (16.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-18 17:36:39) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"UqS1Fka8nEksmnyn6Mg+ziFbV/wjMBBH1fUW4B7BD1U=", "task"=>{"name"=>"Learn Ruby and Rails"}}
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mTask Create (0.0ms)[0m   [0mINSERT INTO `tasks` (`name`, `updated_at`, `finished`, `created_at`) VALUES('Learn Ruby and Rails', '2009-09-18 21:36:39', NULL, '2009-09-18 21:36:39')[0m
+  [4;36;1mSQL (109.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 140ms (DB: 109) | 302 Found [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:36:39) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:36:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/red.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:36:46) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (16.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:36:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/red.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:36:47) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (16.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:36:47) [GET]
+
+ActionController::RoutingError (No route matches "/images/red.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-18 17:37:06) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"UqS1Fka8nEksmnyn6Mg+ziFbV/wjMBBH1fUW4B7BD1U=", "task"=>{"name"=>"Set up Ruby and Rails Environment"}}
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mTask Create (0.0ms)[0m   [0;1mINSERT INTO `tasks` (`name`, `updated_at`, `finished`, `created_at`) VALUES('Set up Ruby and Rails Environment', '2009-09-18 21:37:06', NULL, '2009-09-18 21:37:06')[0m
+  [4;35;1mSQL (125.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 141ms (DB: 141) | 302 Found [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:37:06) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:37:06) [GET]
+
+ActionController::RoutingError (No route matches "/images/red.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:37:07) [GET]
+  [4;35;1mTask Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 15ms (View: 0, DB: 15) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:37:07) [GET]
+
+ActionController::RoutingError (No route matches "/images/red.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:37:08) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:37:08) [GET]
+
+ActionController::RoutingError (No route matches "/images/red.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#finish (for 127.0.0.1 at 2009-09-18 17:37:13) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 2) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mTask Update (0.0ms)[0m   [0;1mUPDATE `tasks` SET `finished` = 1, `updated_at` = '2009-09-18 21:37:13' WHERE `id` = 2[0m
+  [4;35;1mSQL (63.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 78ms (DB: 63) | 302 Found [http://localhost/tasks/finish/2]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:37:13) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (16.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:37:13) [GET]
+
+ActionController::RoutingError (No route matches "/images/red.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:37:13) [GET]
+
+ActionController::RoutingError (No route matches "/images/green.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:37:39) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:37:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/red.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-18 17:37:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/green.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:39:17) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:39:18) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (15.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 15ms (View: 0, DB: 15) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:39:18) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 109ms (View: 94, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:39:21) [GET]
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:39:21) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+
+TypeError (can't dup NilClass):
+  app/controllers/tasks_controller.rb:9:in `new'
+  app/controllers/tasks_controller.rb:9:in `new'
+  app/controllers/tasks_controller.rb:4:in `index'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:39:24) [GET]
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:39:26) [GET]
+  [4;35;1mTask Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 15ms (View: 0, DB: 15) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:39:27) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (16.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:39:27) [GET]
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:39:27) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-18 17:39:35) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"UqS1Fka8nEksmnyn6Mg+ziFbV/wjMBBH1fUW4B7BD1U=", "task"=>{"name"=>"Install Git"}}
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mTask Create (0.0ms)[0m   [0mINSERT INTO `tasks` (`name`, `updated_at`, `finished`, `created_at`) VALUES('Install Git', '2009-09-18 21:39:35', NULL, '2009-09-18 21:39:35')[0m
+  [4;36;1mSQL (47.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 62ms (DB: 47) | 302 Found [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:39:35) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#finish (for 127.0.0.1 at 2009-09-18 17:40:54) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mTask Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 1) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mTask Update (0.0ms)[0m   [0;1mUPDATE `tasks` SET `finished` = 1, `updated_at` = '2009-09-18 21:40:54' WHERE `id` = 1[0m
+  [4;35;1mSQL (63.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 78ms (DB: 78) | 302 Found [http://localhost/tasks/finish/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:40:54) [GET]
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#unfinish (for 127.0.0.1 at 2009-09-18 17:40:55) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (16.0ms)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mTask Update (0.0ms)[0m   [0mUPDATE `tasks` SET `finished` = 0, `updated_at` = '2009-09-18 21:40:55' WHERE `id` = 1[0m
+  [4;36;1mSQL (46.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 62ms (DB: 62) | 302 Found [http://localhost/tasks/unfinish/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:40:55) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#unfinish (for 127.0.0.1 at 2009-09-18 17:40:56) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 2) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mTask Update (0.0ms)[0m   [0;1mUPDATE `tasks` SET `finished` = 0, `updated_at` = '2009-09-18 21:40:56' WHERE `id` = 2[0m
+  [4;35;1mSQL (62.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 78ms (DB: 78) | 302 Found [http://localhost/tasks/unfinish/2]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:40:56) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:40:57) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#finish (for 127.0.0.1 at 2009-09-18 17:42:36) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 1) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mTask Update (0.0ms)[0m   [0;1mUPDATE `tasks` SET `finished` = 1, `updated_at` = '2009-09-18 21:42:36' WHERE `id` = 1[0m
+  [4;35;1mSQL (47.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 62ms (DB: 47) | 302 Found [http://localhost/tasks/finish/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:42:36) [GET]
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:43:17) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:43:18) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:43:18) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:43:18) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (15.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 15ms (View: 0, DB: 30) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:43:19) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:43:19) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (16.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:43:20) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#unfinish (for 127.0.0.1 at 2009-09-18 17:43:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mTask Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 1) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mTask Update (0.0ms)[0m   [0;1mUPDATE `tasks` SET `finished` = 0, `updated_at` = '2009-09-18 21:43:32' WHERE `id` = 1[0m
+  [4;35;1mSQL (47.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 78ms (DB: 62) | 302 Found [http://localhost/tasks/unfinish/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:43:32) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#finish (for 127.0.0.1 at 2009-09-18 17:43:47) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mTask Update (0.0ms)[0m   [0mUPDATE `tasks` SET `finished` = 1, `updated_at` = '2009-09-18 21:43:47' WHERE `id` = 1[0m
+  [4;36;1mSQL (78.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 110ms (DB: 78) | 302 Found [http://localhost/tasks/finish/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:43:47) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#finish (for 127.0.0.1 at 2009-09-18 17:44:01) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 3) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mTask Update (15.0ms)[0m   [0;1mUPDATE `tasks` SET `finished` = 1, `updated_at` = '2009-09-18 21:44:01' WHERE `id` = 3[0m
+  [4;35;1mSQL (78.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 109ms (DB: 93) | 302 Found [http://localhost/tasks/finish/3]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:44:01) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:54:40) [GET]
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#destroy (for 127.0.0.1 at 2009-09-18 17:55:27) [DELETE]
+  Parameters: {"authenticity_token"=>"UqS1Fka8nEksmnyn6Mg+ziFbV/wjMBBH1fUW4B7BD1U=", "id"=>"3"}
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 3) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mTask Destroy (0.0ms)[0m   [0;1mDELETE FROM `tasks` WHERE `id` = 3[0m
+  [4;35;1mSQL (62.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 78ms (DB: 78) | 302 Found [http://localhost/tasks/3]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:55:27) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#destroy (for 127.0.0.1 at 2009-09-18 17:55:29) [DELETE]
+  Parameters: {"authenticity_token"=>"UqS1Fka8nEksmnyn6Mg+ziFbV/wjMBBH1fUW4B7BD1U=", "id"=>"2"}
+  [4;36;1mTask Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 2) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mTask Destroy (0.0ms)[0m   [0mDELETE FROM `tasks` WHERE `id` = 2[0m
+  [4;36;1mSQL (63.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 78ms (DB: 78) | 302 Found [http://localhost/tasks/2]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:55:29) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#destroy (for 127.0.0.1 at 2009-09-18 17:55:30) [DELETE]
+  Parameters: {"authenticity_token"=>"UqS1Fka8nEksmnyn6Mg+ziFbV/wjMBBH1fUW4B7BD1U=", "id"=>"1"}
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 1) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mTask Destroy (0.0ms)[0m   [0;1mDELETE FROM `tasks` WHERE `id` = 1[0m
+  [4;35;1mSQL (141.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 172ms (DB: 141) | 302 Found [http://localhost/tasks/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:55:30) [GET]
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:55:31) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-18 17:55:44) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"UqS1Fka8nEksmnyn6Mg+ziFbV/wjMBBH1fUW4B7BD1U=", "task"=>{"name"=>"Finish Documentation"}}
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mTask Create (0.0ms)[0m   [0mINSERT INTO `tasks` (`name`, `updated_at`, `finished`, `created_at`) VALUES('Finish Documentation', '2009-09-18 21:55:44', NULL, '2009-09-18 21:55:44')[0m
+  [4;36;1mSQL (62.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 78ms (DB: 78) | 302 Found [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:55:44) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:55:49) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:56:19) [GET]
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 17:56:20) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-18 20:06:57) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"UqS1Fka8nEksmnyn6Mg+ziFbV/wjMBBH1fUW4B7BD1U=", "task"=>{"name"=>"Write Report"}}
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mTask Create (0.0ms)[0m   [0;1mINSERT INTO `tasks` (`name`, `updated_at`, `finished`, `created_at`) VALUES('Write Report', '2009-09-19 00:06:57', NULL, '2009-09-19 00:06:57')[0m
+  [4;35;1mSQL (62.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 78ms (DB: 78) | 302 Found [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-18 20:06:57) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (15.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 15ms (View: 0, DB: 15) | 200 OK [http://localhost/tasks]
+/!\ FAILSAFE /!\  Mon Sep 21 09:36:13 -0400 2009
+  Status: 500 Internal Server Error
+  Can't connect to MySQL server on 'localhost' (10061)
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `real_connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:204:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `mysql_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Mon Sep 21 09:36:19 -0400 2009
+  Status: 500 Internal Server Error
+  Can't connect to MySQL server on 'localhost' (10061)
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `real_connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:204:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `mysql_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Mon Sep 21 09:36:28 -0400 2009
+  Status: 500 Internal Server Error
+  Can't connect to MySQL server on 'localhost' (10061)
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `real_connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:204:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `mysql_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-21 09:36:45) [GET]
+
+ActionController::RoutingError (No route matches "/todolist" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-21 09:36:49) [GET]
+
+ActionController::RoutingError (No route matches "/todo" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-21 09:36:59) [GET]
+
+ActionController::RoutingError (No route matches "/taks" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-21 09:37:04) [GET]
+
+ActionController::RoutingError (No route matches "/task" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:37:09) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 1234ms (View: 1218, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 09:37:52) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"xl9H3az03mIpwIP46QNPi1JRwj0tCfSBv4dAm+fuQ9s=", "task"=>{"name"=>"Code Review"}}
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mTask Create (0.0ms)[0m   [0;1mINSERT INTO `tasks` (`name`, `updated_at`, `finished`, `created_at`) VALUES('Code Review', '2009-09-21 13:37:52', NULL, '2009-09-21 13:37:52')[0m
+  [4;35;1mSQL (62.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 109ms (DB: 62) | 302 Found [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:37:52) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:38:30) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:38:32) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#finish (for 127.0.0.1 at 2009-09-21 09:38:35) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (15.0ms)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 4) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mTask Update (0.0ms)[0m   [0mUPDATE `tasks` SET `finished` = 1, `updated_at` = '2009-09-21 13:38:35' WHERE `id` = 4[0m
+  [4;36;1mSQL (78.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 93ms (DB: 93) | 302 Found [http://localhost/tasks/finish/4]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:38:35) [GET]
+  [4;36;1mTask Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 16, DB: 15) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#unfinish (for 127.0.0.1 at 2009-09-21 09:38:39) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 4) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mTask Update (0.0ms)[0m   [0;1mUPDATE `tasks` SET `finished` = 0, `updated_at` = '2009-09-21 13:38:39' WHERE `id` = 4[0m
+  [4;35;1mSQL (62.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 94ms (DB: 62) | 302 Found [http://localhost/tasks/unfinish/4]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:38:39) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:39:58) [GET]
+  [4;36;1mTask Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 265ms (View: 250, DB: 15) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:39:59) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:40:23) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:40:24) [GET]
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:41:40) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:42:06) [GET]
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 32ms (View: 16, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:42:07) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:42:07) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:42:07) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:42:07) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:42:16) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 109ms (View: 93, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:42:16) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:42:16) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:42:17) [GET]
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:42:42) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:42:43) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:42:43) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:42:43) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:42:43) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:42:44) [GET]
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:42:44) [GET]
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:42:44) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:42:45) [GET]
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:42:54) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:42:55) [GET]
+  [4;36;1mTask Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 15ms (View: 0, DB: 15) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:53:28) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:53:36) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 09:53:36) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:39:50) [GET]
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 1531ms (View: 1515, DB: 16) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:39:53) [GET]
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:39:54) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (undefined method `task_task_task_path' for #<ActionView::Base:0x4aff704>) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>My Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 	<%= f.error_messages %>
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+    app/controllers/tasks_controller.rb:19:in `create'
+
+Rendered rescues/_trace (140.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:40:38) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;36;1mTask Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (undefined method `task_task_task_path' for #<ActionView::Base:0x49a3978>) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>My Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 	<%= f.error_messages %>
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+    app/controllers/tasks_controller.rb:19:in `create'
+
+Rendered rescues/_trace (141.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:41:17) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:41:19) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;36;1mTask Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (undefined method `task_task_task_path' for #<ActionView::Base:0x4b036d8>) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>My Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 	<%= f.error_messages %>
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+    app/controllers/tasks_controller.rb:19:in `create'
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:42:03) [GET]
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 32ms (View: 16, DB: 16) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:42:04) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #22 of app/views/tasks/index.html.erb:
+19: 
+20:   </tr>
+21: 
+22: <% @tasks.each do |task| %>
+23:   <tr>
+24:     <td width="500"><b><%=h task.name %></b></td>
+25:     <td width="200"><%=h task.created_at %></td>
+
+    app/views/tasks/index.html.erb:22
+    app/controllers/tasks_controller.rb:19:in `create'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:42:17) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:42:17) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+
+ActionView::MissingTemplate (Missing template tasks/new.erb in view path app/views):
+  app/controllers/tasks_controller.rb:19:in `create'
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:42:24) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:42:25) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (undefined method `task_task_task_path' for #<ActionView::Base:0x4a42384>) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>My Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 	<%= f.error_messages %>
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+    app/controllers/tasks_controller.rb:19:in `create'
+
+Rendered rescues/_trace (140.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:42:52) [GET]
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:42:53) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Redirected to http://localhost:3000/tasks
+Completed in 31ms (DB: 0) | 302 Found [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:42:53) [GET]
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:42:54) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;35;1mTask Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Redirected to http://localhost:3000/tasks
+Completed in 15ms (DB: 15) | 302 Found [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:42:54) [GET]
+  [4;36;1mTask Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 15ms (View: 0, DB: 15) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:42:56) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;35;1mTask Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Redirected to http://localhost:3000/tasks
+Completed in 15ms (DB: 15) | 302 Found [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:42:56) [GET]
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:42:56) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Redirected to http://localhost:3000/tasks
+Completed in 31ms (DB: 0) | 302 Found [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:42:56) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:42:56) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Redirected to http://localhost:3000/tasks
+Completed in 16ms (DB: 16) | 302 Found [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:42:56) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (16.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#finish (for 127.0.0.1 at 2009-09-21 14:42:57) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 4) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mTask Update (0.0ms)[0m   [0;1mUPDATE `tasks` SET `finished` = 1, `updated_at` = '2009-09-21 18:42:57' WHERE `id` = 4[0m
+  [4;35;1mSQL (141.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 188ms (DB: 141) | 302 Found [http://localhost/tasks/finish/4]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:42:57) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#finish (for 127.0.0.1 at 2009-09-21 14:42:59) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 5) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mTask Update (0.0ms)[0m   [0mUPDATE `tasks` SET `finished` = 1, `updated_at` = '2009-09-21 18:42:59' WHERE `id` = 5[0m
+  [4;36;1mSQL (63.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 171ms (DB: 63) | 302 Found [http://localhost/tasks/finish/5]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:42:59) [GET]
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#finish (for 127.0.0.1 at 2009-09-21 14:43:00) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mTask Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 6) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mTask Update (0.0ms)[0m   [0;1mUPDATE `tasks` SET `finished` = 1, `updated_at` = '2009-09-21 18:43:00' WHERE `id` = 6[0m
+  [4;35;1mSQL (63.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 78ms (DB: 78) | 302 Found [http://localhost/tasks/finish/6]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:43:00) [GET]
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:43:01) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:43:02) [GET]
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:43:02) [GET]
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:43:02) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#unfinish (for 127.0.0.1 at 2009-09-21 14:43:04) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 6) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mTask Update (0.0ms)[0m   [0mUPDATE `tasks` SET `finished` = 0, `updated_at` = '2009-09-21 18:43:04' WHERE `id` = 6[0m
+  [4;36;1mSQL (47.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 78ms (DB: 47) | 302 Found [http://localhost/tasks/unfinish/6]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:43:04) [GET]
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#unfinish (for 127.0.0.1 at 2009-09-21 14:43:04) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mTask Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 5) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mTask Update (0.0ms)[0m   [0;1mUPDATE `tasks` SET `finished` = 0, `updated_at` = '2009-09-21 18:43:04' WHERE `id` = 5[0m
+  [4;35;1mSQL (63.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 78ms (DB: 78) | 302 Found [http://localhost/tasks/unfinish/5]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:43:05) [GET]
+  [4;35;1mTask Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 15ms (View: 0, DB: 15) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#unfinish (for 127.0.0.1 at 2009-09-21 14:43:05) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 4) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mTask Update (0.0ms)[0m   [0mUPDATE `tasks` SET `finished` = 0, `updated_at` = '2009-09-21 18:43:05' WHERE `id` = 4[0m
+  [4;36;1mSQL (47.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 78ms (DB: 63) | 302 Found [http://localhost/tasks/unfinish/4]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:43:05) [GET]
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:43:07) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:43:07) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:43:07) [GET]
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:43:09) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Redirected to http://localhost:3000/tasks
+Completed in 16ms (DB: 16) | 302 Found [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:43:09) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:43:10) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (62.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Redirected to http://localhost:3000/tasks
+Completed in 94ms (DB: 78) | 302 Found [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:43:10) [GET]
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:43:10) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Redirected to http://localhost:3000/tasks
+Completed in 16ms (DB: 16) | 302 Found [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:43:10) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:43:11) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Redirected to http://localhost:3000/tasks
+Completed in 31ms (DB: 0) | 302 Found [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:43:11) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:43:11) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Redirected to http://localhost:3000/tasks
+Completed in 16ms (DB: 16) | 302 Found [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:43:11) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:43:31) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (undefined method `task_task_task_path' for #<ActionView::Base:0x491fa88>) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>My Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 	<%= f.error_messages %>
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+    app/controllers/tasks_controller.rb:19:in `create'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:43:45) [GET]
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:43:46) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:43:48) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Completed in 31ms (View: 15, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:43:54) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:44:04) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:44:05) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (undefined method `task_task_task_path' for #<ActionView::Base:0x49e33fc>) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>My Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 	<%= f.error_messages %>
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+    app/controllers/tasks_controller.rb:19:in `create'
+
+Rendered rescues/_trace (157.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:46:03) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;35;1mTask Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (undefined method `task_task_task_path' for #<ActionView::Base:0x4b5b8c4>) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>My Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 	<%= f.error_messages %>
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+    app/controllers/tasks_controller.rb:24:in `create'
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:46:06) [GET]
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:46:06) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:46:06) [GET]
+  [4;36;1mTask Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 16, DB: 15) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:46:07) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (undefined method `task_task_task_path' for #<ActionView::Base:0x496aaec>) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>My Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 	<%= f.error_messages %>
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+    app/controllers/tasks_controller.rb:24:in `create'
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:46:30) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (undefined local variable or method `f' for #<ActionView::Base:0x4ab936c>) on line #2 of app/views/tasks/index.html.erb:
+1: <h1>My Tasks</h1>
+2: <%= f.error_messages %>
+3: <% form_for @task do |f| -%>
+4: 	
+5: 
+
+    app/views/tasks/index.html.erb:2
+    app/controllers/tasks_controller.rb:24:in `create'
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:46:41) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (undefined method `error_messages' for #<Array:0x4966488>) on line #2 of app/views/tasks/index.html.erb:
+1: <h1>My Tasks</h1>
+2: <%= @task.error_messages %>
+3: <% form_for @task do |f| -%>
+4: 	
+5: 
+
+    app/views/tasks/index.html.erb:2
+    app/controllers/tasks_controller.rb:24:in `create'
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:46:51) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (undefined method `task_task_task_path' for #<ActionView::Base:0x4aef3e0>) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>My Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 	<%= f.error_messages %>
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+    app/controllers/tasks_controller.rb:24:in `create'
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:47:37) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mTask Load (15.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (undefined method `task_task_task_path' for #<ActionView::Base:0x49a4044>) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>My Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+    app/controllers/tasks_controller.rb:24:in `create'
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:47:39) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:47:40) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (undefined method `task_task_task_path' for #<ActionView::Base:0x4aa62a8>) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>My Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+    app/controllers/tasks_controller.rb:24:in `create'
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:47:42) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:47:42) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:47:43) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:47:43) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:47:43) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-09-21 14:47:44) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"pm7InY80dfE4M+AU39J/nzXKHYTjVsmGUTv30vkz/f4=", "task"=>{"name"=>""}}
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (undefined method `task_task_task_path' for #<ActionView::Base:0x4ad1214>) on line #3 of app/views/tasks/index.html.erb:
+1: <h1>My Tasks</h1>
+2: 
+3: <% form_for @task do |f| -%>
+4: 
+5: 
+6: 	<p>
+
+    app/views/tasks/index.html.erb:3
+    app/controllers/tasks_controller.rb:24:in `create'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:50:36) [GET]
+  [4;36;1mTask Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 32ms (View: 16, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:50:36) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 109ms (View: 94, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:50:37) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#finish (for 127.0.0.1 at 2009-09-21 14:50:38) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 4) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mTask Update (0.0ms)[0m   [0;1mUPDATE `tasks` SET `finished` = 1, `updated_at` = '2009-09-21 18:50:38' WHERE `id` = 4[0m
+  [4;35;1mSQL (47.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 78ms (DB: 63) | 302 Found [http://localhost/tasks/finish/4]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:50:39) [GET]
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#finish (for 127.0.0.1 at 2009-09-21 14:50:41) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mTask Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 5) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mTask Update (0.0ms)[0m   [0mUPDATE `tasks` SET `finished` = 1, `updated_at` = '2009-09-21 18:50:41' WHERE `id` = 5[0m
+  [4;36;1mSQL (63.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 78ms (DB: 78) | 302 Found [http://localhost/tasks/finish/5]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:50:41) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:50:42) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:50:42) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:50:43) [GET]
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:50:43) [GET]
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 14:50:44) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-09-21 15:35:59) [GET]
+  [4;35;1mTask Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 172ms (View: 156, DB: 0) | 200 OK [http://localhost/tasks]
