@@ -1,4 +1,4 @@
-<h1>My Tasks</h1>
+<h1>My Todo Tasks List</h1>
 
 <% form_for @task do |f| -%>
 	<%= f.error_messages %>
@@ -16,8 +16,7 @@
 	<th align="left">Task</th>
 	<th>Date</th>
 	<th colspan="3">Status</th>
-
-  </tr>
+</tr>
 
 <% @tasks.each do |task| %>
   <tr>
